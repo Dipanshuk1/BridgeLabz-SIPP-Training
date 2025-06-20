@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Question16_PositiveNegativeEvenOdd {
+public class prob16_PositiveNegativeEvenOdd {
     public static boolean isPositive(int n) {
         return n >= 0;
     }
