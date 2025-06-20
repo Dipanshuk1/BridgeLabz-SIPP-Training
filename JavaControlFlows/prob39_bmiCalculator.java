@@ -11,7 +11,6 @@ public class prob39_bmiCalculator {
         double heightCm = scanner.nextDouble();
 
         double heightM = heightCm / 100;
-
         double bmi = weight / (heightM * heightM);
 
         System.out.printf("Your BMI is: %.2f\n", bmi);
