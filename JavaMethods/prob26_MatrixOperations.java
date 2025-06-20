@@ -19,7 +19,7 @@ public class prob26_MatrixOperations {
     public static double[][] transposeMatrix(double[][] matrix) {
         int rows = matrix.length;
         int cols = matrix[0].length;
-        double[][] transpose = new double[cols][rows];
+        double[][] transpose= new double[cols][rows];
         for (int i = 0; i < rows; i++)
             for (int j = 0; j < cols; j++)
                 transpose[j][i] = matrix[i][j];
