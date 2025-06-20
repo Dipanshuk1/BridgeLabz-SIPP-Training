@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CostPriceFromProfit {
+public class Problem20_CostPriceFromProfit {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter selling price: ");
