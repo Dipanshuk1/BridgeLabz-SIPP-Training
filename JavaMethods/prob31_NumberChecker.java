@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 public class prob31_NumberChecker {
-
     public static void main(String[] args) {
         int number = 1729;
         int[] digits = extractDigits(number);
