@@ -60,7 +60,11 @@ public class ECommerce
         Product[] products = {
             new Electronics(1, "Laptop", 50000),
             new Clothing(2, "Shirt", 2000),
+<<<<<<< HEAD
             new Groceries(3, "Rice", 1000) 
+=======
+            new Groceries(3, "Rice", 1000)
+>>>>>>> 249523b83e40156fc9c2cffe2f773240d52c8ea5
         };
         System.out.println("E-Commerce Platform:");
         ECommercePlatform.printFinalPrices(products);
