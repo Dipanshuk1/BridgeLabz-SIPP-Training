@@ -29,7 +29,7 @@ class CustomHashMap<K, V> {
 
         while (head != null) {
             if (head.key.equals(key)) {
-                head.value = value; // Update existing key
+                head.value = value; 
                 return;
             }
             head = head.next;
@@ -72,8 +72,8 @@ class CustomHashMap<K, V> {
         CustomHashMap<String, Integer> map = new CustomHashMap<>();
         map.put("one", 1);
         map.put("two", 2);
-        System.out.println(map.get("one")); // 1
+        System.out.println(map.get("one")); 
         map.remove("one");
-        System.out.println(map.get("one")); // null
+        System.out.println(map.get("one")); 
     }
 }
