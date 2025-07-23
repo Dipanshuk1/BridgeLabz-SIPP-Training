@@ -1,6 +1,6 @@
 import java.util.HashSet;
 
-public class PairWithSum {
+public class PairWithSumHash {
 
     public static boolean hasPairWithSum(int[] arr, int target) {
         HashSet<Integer> set = new HashSet<>();
