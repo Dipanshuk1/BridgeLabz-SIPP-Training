@@ -65,7 +65,7 @@ class AmbulanceService implements TransportService, EmergencyService {
 }
 
 
-public class SmartCity {
+public class SCityTransport {
     public static void main(String[] args) {
 
         TransportService bus = new BusService("City Bus");
